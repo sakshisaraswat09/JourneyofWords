@@ -5,9 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "server": "nodemon server.js",
+    "server": "node server.js",
     "build": "npm install --prefix client && npm run build --prefix client && npm install",
-    "start": "nodemon server.js"
+    "start": "node server.js"
   },
   "author": "Sakshi Saraswat",
   "license": "ISC",
